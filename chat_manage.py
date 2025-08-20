@@ -1,5 +1,6 @@
 import sqlite3
 from flask import Flask, jsonify, request
+a = 10
 
 app = Flask(__name__)
 DB_PATH = "chat.db"
